@@ -3,12 +3,6 @@ Group03
 
 __OS:__ iOS
 
-__Members:__
- - 862915 / 10436491 / Ilaria Carlini
- - 877011 / 10395799 / Mohammad Manan Tariq
- - 837576 / 10384517 / Alberto Pagani
- - 838559 / 10388206 / Alessandro Castiglioni
-
 Project Structure
 ---
 - __Game.swift__ <br>
