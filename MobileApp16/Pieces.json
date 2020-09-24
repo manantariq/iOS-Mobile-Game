@@ -1,0 +1,245 @@
+{
+    "White": {
+        "Giant": {
+            "InitialVitality": 5,
+            "InitialPosition": [[1, 0]],
+            "Move": {
+                "Range": 2,
+                "Directions": "H-V",
+                "Type": "Walk"
+            },
+            "Attack": {
+                "Range": 1,
+                "Strength": 4,
+                "Directions": "H-V"
+            },
+            "weight" : 4,
+            "isMagic": false,
+            "icon" : ["LS-AAT-giant"],
+            "miniature-icon" : ["Aat-miniatura-Giant"],
+            "frontend_name" : ["AAT, Mech"]
+        },
+        
+        "Dragon": {
+            "InitialVitality": 6,
+            "InitialPosition": [[2, 0]],
+            "Move": {
+                "Range": 3,
+                "Directions": "H-V",
+                "Type": "Flight"
+            },
+            "Attack": {
+                "Range": 2,
+                "Strength": 3,
+                "Directions": "H-V"
+            },
+            "weight" : 5,
+            "isMagic": false,
+            "icon" : ["LS-Millennium-falcon-dragon"],
+            "miniature-icon" : ["Millennium-miniatura-Dragon"],
+            "frontend_name" : ["Millennium Falcon, Starship"]
+        },
+        
+        "Mage": {
+            "InitialVitality": 7,
+            "InitialPosition": [[3, 0]],
+            "Move": {
+                "Range": 1,
+                "Directions": "Any",
+                "Type": "Walk"
+            },
+            "Attack": {
+                "Range": 0,
+                "Strength": 2,
+                "Directions": "ND"
+            },
+            "weight" : 6,
+            "isMagic": true,
+            "icon" : ["LS-Yoda-mage"],
+            "miniature-icon" : ["Yoda-miniatura-Mage"],
+            "frontend_name" : ["Yoda, Master"]
+        },
+        
+        "Archer": {
+            "InitialVitality": 5,
+            "InitialPosition": [[4, 0]],
+            "Move": {
+                "Range": 2,
+                "Directions": "Any",
+                "Type": "Walk"
+            },
+            "Attack": {
+                "Range": 3,
+                "Strength": 2,
+                "Directions": "H-V"
+            },
+            "weight" : 5,
+            "isMagic": false,
+            "icon" : ["LS-Chewbecca-archer"],
+            "miniature-icon" : ["Chube-miniatura-Archer"],
+            "frontend_name" : ["Chewbecca, Sniper"]
+        },
+        
+        "Knight": {
+            "InitialVitality": 4,
+            "InitialPosition": [[1, 1],[3,1]],
+            "Move": {
+                "Range": 1,
+                "Directions": "Any",
+                "Type": "Walk"
+            },
+            "Attack": {
+                "Range": 1,
+                "Strength": 2,
+                "Directions": "Diagonal"
+            },
+            "weight" : 3,
+            "isMagic": false,
+            "icon" : ["LS-Luke-knight","LS-BenKenobi-knight"],
+            "miniature-icon" : ["Luke-miniatura-Knight","Ben-miniatura-Knight"],
+            "frontend_name" : ["Luke Skywalker, Jedi Knight", "Obi-Wan Kenobi, Jedi Knight"]
+        },
+        
+        "Squire": {
+            "InitialVitality": 3,
+            "InitialPosition": [[2, 1],[4,1]],
+            "Move": {
+                "Range": 1,
+                "Directions": "H-V",
+                "Type": "Walk"
+            },
+            "Attack": {
+                "Range": 0,
+                "Strength": 1,
+                "Directions": "ND"
+            },
+            "weight" : 2,
+            "isMagic": false,
+            "icon" : ["LS-pilot-squire", "LS-pilot-squire-1"],
+            "miniature-icon" : ["Pilot-miniatura-Squire", "Pilot-miniatura-Squire"],
+            "frontend_name" : ["Rebellion pilot, Pilot", "Rebellion pilot, Pilot"]
+        }
+    },
+    
+    "Black": {
+        "Giant": {
+            "InitialVitality": 5,
+            "InitialPosition": [[4, 5]],
+            "Move": {
+                "Range": 2,
+                "Directions": "H-V",
+                "Type": "Walk"
+            },
+            "Attack": {
+                "Range": 1,
+                "Strength": 4,
+                "Directions": "H-V"
+            },
+            "weight" : 4,
+            "isMagic": false,
+            "icon" : ["DS-Atat-giant"],
+            "miniature-icon" : ["Atat-miniatura-Giant"],
+            "frontend_name" : ["ATAT, Mech"]
+        },
+        
+        "Dragon": {
+            "InitialVitality": 6,
+            "InitialPosition": [[3, 5]],
+            "Move": {
+                "Range": 3,
+                "Directions": "H-V",
+                "Type": "Flight"
+            },
+            "Attack": {
+                "Range": 2,
+                "Strength": 3,
+                "Directions": "H-V"
+            },
+            "weight" : 5,
+            "isMagic": false,
+            "icon" : ["DS-Tie-dragon"],
+            "miniature-icon" : ["Tie-miniatura-Dragon"],
+            "frontend_name" : ["TIE fighter, Starship"]
+        },
+        
+        "Mage": {
+            "InitialVitality": 7,
+            "InitialPosition": [[2, 5]],
+            "Move": {
+                "Range": 1,
+                "Directions": "Any",
+                "Type": "Walk"
+            },
+            "Attack": {
+                "Range": 0,
+                "Strength": 2,
+                "Directions": "ND"
+            },
+            "weight" : 6,
+            "isMagic": true,
+            "icon" : ["DS-Palpatine-mage"],
+            "miniature-icon" : ["Palpatine-miniatura-Mage"],
+            "frontend_name" : ["Palpatine, Master"]
+        },
+        
+        "Archer": {
+            "InitialVitality": 5,
+            "InitialPosition": [[1, 5]],
+            "Move": {
+                "Range": 2,
+                "Directions": "Any",
+                "Type": "Walk"
+            },
+            "Attack": {
+                "Range": 3,
+                "Strength": 2,
+                "Directions": "H-V"
+            },
+            "weight" : 5,
+            "isMagic": false,
+            "icon" : ["DS-Boba-fett-archer"],
+            "miniature-icon" : ["Boba-miniatura-Archer"],
+            "frontend_name" : ["Boba Fett, Sniper"]
+        },
+        
+        "Knight": {
+            "InitialVitality": 4,
+            "InitialPosition": [[4, 4],[2,4]],
+            "Move": {
+                "Range": 1,
+                "Directions": "Any",
+                "Type": "Walk"
+            },
+            "Attack": {
+                "Range": 1,
+                "Strength": 2,
+                "Directions": "Diagonal"
+            },
+            "weight" : 3,
+            "isMagic": false,
+            "icon" : ["DS-Kylo-knight","DS-Darth-vader-knight"],
+            "miniature-icon" : ["Kylo-miniatura-Knight","Vader-miniatura-Knight"],
+            "frontend_name" : ["Kylo Ren, Sith Knight", "Darth Vader, Sith Knight"]
+        },
+        
+        "Squire": {
+            "InitialVitality": 3,
+            "InitialPosition": [[3, 4],[1,4]],
+            "Move": {
+                "Range": 1,
+                "Directions": "H-V",
+                "Type": "Walk"
+            },
+            "Attack": {
+                "Range": 0,
+                "Strength": 1,
+                "Directions": "ND"
+            },
+            "weight" : 2,
+            "isMagic": false,
+            "icon" : ["DS-General-veers-squire", "DS-General-veers-squire-1"],
+            "miniature-icon" : ["Veers-miniatura-Squire", "Veers-miniatura-Squire"],
+            "frontend_name" : ["Empire pilot, Pilot", "Empire pilot, Pilot"]
+        }
+    }
+}

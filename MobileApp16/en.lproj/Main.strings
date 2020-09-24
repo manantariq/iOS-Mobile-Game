@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; normalTitle = "Heal"; ObjectID = "7p4-s4-hpc"; */
+"7p4-s4-hpc.normalTitle" = "Heal";
+
+/* Class = "UILabel"; text = "Spell"; ObjectID = "C1H-Mr-FgB"; */
+"C1H-Mr-FgB.text" = "Spell";
+
+/* Class = "UIButton"; normalTitle = "Move"; ObjectID = "Cid-LB-j3Q"; */
+"Cid-LB-j3Q.normalTitle" = "Move";
+
+/* Class = "UILabel"; text = "Dead"; ObjectID = "GE2-3O-747"; */
+"GE2-3O-747.text" = "Dead";
+
+/* Class = "UIButton"; normalTitle = "Attack"; ObjectID = "MIb-g6-baF"; */
+"MIb-g6-baF.normalTitle" = "Attack";
+
+/* Class = "UIButton"; normalTitle = "Freeze"; ObjectID = "YdO-ki-0tN"; */
+"YdO-ki-0tN.normalTitle" = "Freeze";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "acm-Zf-M8z"; */
+"acm-Zf-M8z.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Revive"; ObjectID = "bC6-rF-MUd"; */
+"bC6-rF-MUd.normalTitle" = "Revive";
+
+/* Class = "UIButton"; normalTitle = "Teleport"; ObjectID = "eeO-LJ-s2M"; */
+"eeO-LJ-s2M.normalTitle" = "Teleport";
+
+/* Class = "UITextField"; placeholder = "Select existing player"; ObjectID = "jZY-LB-qf0"; */
+"jZY-LB-qf0.placeholder" = "Select existing player";
+
+/* Class = "UITextField"; placeholder = "Select existing player"; ObjectID = "nVp-Yd-706"; */
+"nVp-Yd-706.placeholder" = "Select existing player";
+
+/* Class = "UILabel"; text = "Turn"; ObjectID = "y77-cu-bfO"; */
+"y77-cu-bfO.text" = "Turn";
